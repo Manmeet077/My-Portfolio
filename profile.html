@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('images/background2.jpg') no-repeat center center fixed;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .nav-links {
+            background-color: #7072e4;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .nav-links a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 16px;
+        }
+
+        .nav-links a:hover {
+            text-decoration: underline;
+        }
+
+        .resume {
+            width: 800px;
+            background: white;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .resume .header {
+            display: flex;
+            align-items: center;
+            padding: 20px;
+            background-color: #7072e4;
+            color: white;
+        }
+
+        .resume .header img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 4px solid white;
+            margin-right: 20px;
+        }
+
+        .resume .header .info {
+            flex-grow: 1;
+        }
+
+        .resume .header h2 {
+            margin: 0;
+            font-size: 24px;
+        }
+
+        .resume .header p {
+            margin: 5px 0;
+            font-size: 16px;
+        }
+
+        .resume .details {
+            padding: 20px;
+        }
+
+        .resume .details section {
+            margin-bottom: 20px;
+        }
+
+        .resume .details h2 {
+            color: #7072e4;
+            font-size: 18px;
+            border-bottom: 2px solid #7072e4;
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+        }
+
+        .resume .details p {
+            margin: 5px 0;
+            font-size: 16px;
+            color: #555;
+        }
+
+        .resume .details ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .resume .details ul li {
+            margin-bottom: 8px;
+            font-size: 14px;
+        }
+
+        .resume .details ul li span {
+            font-weight: bold;
+        }
+
+        .resume .details table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+
+        .resume .details table th,
+        .resume .details table td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        .resume .details table th {
+            background-color: #7072e4;
+            color: white;
+        }
+
+        .resume .contact {
+            background-color: #f7f7f7;
+            padding: 20px;
+            border-top: 2px solid #7072e4;
+        }
+
+        .resume .contact h2 {
+            color: #7072e4;
+            font-size: 18px;
+            border-bottom: 2px solid #7072e4;
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+        }
+
+        .resume .contact p {
+            margin: 5px 0;
+            font-size: 14px;
+            color: #555;
+        }
+
+        .resume .contact ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .resume .contact ul li {
+            margin-bottom: 8px;
+            font-size: 14px;
+        }
+
+        .resume .contact ul li span {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="resume">
+        <div class="header">
+            <img src="images/profile-pic.JPG" alt="Profile Photo">
+            <div class="info">
+                <h2>Manmeet Singh</h2>
+                <p>Software Developer</p>
+                <p><span>Email:</span> singhmanmeet524@gmail.com</p>
+                <p><span>Phone:</span> 9988776655</p>
+            </div>
+        </div>
+
+        <!-- Navigation Links -->
+        <div class="nav-links">
+            <a href="#about-me">About Me</a>
+            <a href="#skills">Skills</a>
+            <a href="#education">Education</a>
+            <a href="#achievements">Achievements</a>
+            <a href="#contact">Contact</a>
+        </div>
+
+        <div class="details">
+            <section id="about-me">
+                <h2>About Me</h2>
+                <p>I am a dedicated sports player who has learned the value of discipline, teamwork, and hard work through my experiences on the field. Alongside my love for sports, I have a strong interest in computer science, programming, data science, and software development. I enjoy solving problems, exploring new technologies, and creating useful projects. My passion for both sports and technology drives me to constantly improve and take on new challenges. Whether it's playing a game, analyzing data, or developing software, I always aim to give my best and make a positive impact.</p>
+            </section>
+
+            <section id="skills">
+                <h2>Skills</h2>
+                <ul>
+                    <li><span>Languages:</span> C/C++/Java</li>
+                    <li><span>Technologies:</span> HTML/CSS/Javascript</li>
+                    <li><span>Database:</span> MySQL</li>
+                    <li><span>Operating System:</span> Windows</li>
+                </ul>
+            </section>
+
+            <section id="education">
+                <h2>Education</h2>
+                <table>
+                    <tr>
+                        <th>MCA</th>
+                        <td>Panjab University, Chandigarh (Pursuing)</td>
+                    </tr>
+                    <tr>
+                        <th>BCA</th>
+                        <td>GGDSD College, Chandigarh</td>
+                    </tr>
+                    <tr>
+                        <th>12th</th>
+                        <td>GMSSS, Sector-35, Chandigarh</td>
+                    </tr>
+                    <tr>
+                        <th>10th</th>
+                        <td>GMCH, Sector-29, Chandigarh</td>
+                    </tr>
+                </table>
+            </section>
+
+            <section id="achievements">
+                <h2>Achievements</h2>
+                <ul>
+                    <li><span>Sports:</span> Gold Medal (Tier 1 Nationals) - Indian Football Senior National Championship</li>
+                    <li><span>Sports:</span> Gold Medal - Senior Club National (Tier 1 )</li>
+                </ul>
+            </section>
+        </div>
+
+        <div class="contact" id="contact">
+            <h2>Contact</h2>
+            <ul>
+                <li><span>Location:</span> Chandigarh</li>
+                <li><span>Email:</span> singhmanmeet524@gmail.com</li>
+                <li><span>Phone:</span> 9988776655</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
